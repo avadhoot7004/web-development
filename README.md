@@ -1,5 +1,9 @@
 # Internship training at Exaltasoft
 
+This is an extensive day-by-day log maintained throughout the duration of the internship. All the tasks can be found in this repository. 
+
+Please leave suggestions and feedback [here](suggestions.txt).
+
 ## Day 0 
 **01-01-2025**
 - Introduction of training programme and general discussion.
@@ -15,6 +19,7 @@ The main task for the day was to create a **signup/login page**. The page includ
 - Form elements for **first name**, **last name**, **email**, and **password**.
 - A **submit** button to send the data.
 - Links to navigate between pages (e.g., "Go to the first page" and "Go to Second page").
+- Navigate to the task [here](loginSignup/).
 
 This task provided practice in using HTML forms, input fields, and links for basic navigation between pages.
 
@@ -32,6 +37,7 @@ This task provided practice in using HTML forms, input fields, and links for bas
 The task for the day involved:
 - Creating **tables** using `<table>`, `<tr>`, `<th>`, and `<td>` tags.
 - Creating **lists** using `<ul>`, `<ol>`, and `<li>` tags for better organization of content.
+- - Navigate to the task [here](listsTables/index.html).
 
 ### Git and GitHub Introduction:
 - **Git** and **GitHub** were introduced as tools for version control.
@@ -56,6 +62,7 @@ The main task for the day was to apply **CSS styling** to the **signup/login pag
 - Styling the **form** and **input fields**.
 - Adding background colors and text colors.
 - Styling the **submit button** and **form layout** to make the page visually appealing.
+-- Navigate to the task [here](loginSignup/styles.css).
 
 ### CSS Selectors:
 - We practiced using **class selectors** (e.g., `.classdata`) and **ID selectors** (e.g., `#loginForm`) to apply styles to specific elements on the page.
@@ -91,5 +98,6 @@ This task provided hands-on experience in using **CSS** to style web pages, whic
 - **Alert Function**: Our first JavaScript code involved using the `alert()` function to display a simple message to the user.
 
 ### Task: Hands-on practice with **Flexbox** and **Grid** layouts and revision of JavaScript basics.
-This included revising basics of JS and trying out the newly learnt CSS concepts.
+- This included revising basics of JS and trying out the newly learnt CSS concepts.
+- Navigate to the task [here](loginSignup/styles.css).
 
