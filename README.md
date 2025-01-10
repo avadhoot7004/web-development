@@ -99,5 +99,91 @@ This task provided hands-on experience in using **CSS** to style web pages, whic
 
 ### Task: Hands-on practice with **Flexbox** and **Grid** layouts and revision of JavaScript basics.
 - This included revising basics of JS and trying out the newly learnt CSS concepts.
-- Navigate to the task [here](loginSignup/styles.css).
+- Navigate to the task [here](flexboxGrid/).
 
+## Day 5  
+**08-01-2025**  
+- On **Day 5** of the training, the focus was on learning **JavaScript concepts** such as variables, scope, operators, strings, and objects. Additionally, **Bootstrap** was introduced for quickly styling and structuring web pages.
+
+### JavaScript Concepts:
+- **Variables and Scope**:
+  - We explored `var`, `let`, and `const` and their behavior in different scopes.
+    ```javascript
+    var a = 10;
+    {
+        var a = 20; // var is function-scoped, so it reassigns the outer variable.
+        console.log(a);
+    }
+    console.log(a); // Output: 20
+    ```
+
+  - Demonstrated the **block-scoping** of `let` and `const`.
+    ```javascript
+    let b = 5;
+    {
+        let b = 10; // Block-scoped, so this does not affect the outer 'b'.
+        console.log(b); // Output: 10
+    }
+    console.log(b); // Output: 5
+    ```
+
+- **Prompt Input**:
+  - Used `prompt()` to take user input and performed operations:
+    ```javascript
+    var a = prompt("Enter a number");
+    document.write("The number entered is: " + a);
+    var c = a % 20; // Modulus operation
+    console.log(c);
+    ```
+
+- **String Operations**:
+  - Concatenation of strings using `+` and checking conditions using logical operators:
+    ```javascript
+    let text = "World";
+    let text2 = "Hello";
+    let text3 = text + " " + text2; // Concatenates strings
+    console.log(text3); // Output: World Hello
+    ```
+
+- **Objects**:
+  - Introduction to JavaScript objects:
+    ```javascript
+    let name = { firstname: "Pooja", lastname: "Thakral" };
+    console.log(name.firstname); // Output: Pooja
+    ```
+
+### Bootstrap Basics:
+- **Introduction to Bootstrap**:
+  - **Bootstrap** is a CSS framework for quickly designing responsive and mobile-first web pages.
+  - The class-based system of Bootstrap simplifies styling without writing custom CSS.
+
+- **Bootstrap Features Covered**:
+  - Using **predefined classes** for text formatting, grid systems, and buttons.
+  - Examples included adding responsiveness to layouts and using buttons with classes like `.btn-primary` and `.btn-success`.
+
+### Task: Use Basic Bootstrap Functions
+- Apply **Bootstrap classes** to a signup/login page to enhance its layout and appearance.
+- Use Bootstrap's **grid system** to align elements responsively.
+- Style buttons, forms, and other elements using **Bootstrap components**.
+- Navigate to the task [here](bootstrapform/)
+
+This session combined hands-on practice with JavaScript operations and introduced the versatility of Bootstrap for efficient web design.
+
+## Day 6  
+**13-01-2025**  
+- On **Day 6** of the training, the focus was on advanced **JavaScript** concepts, including loops, conditional statements, and comparison operators. Practical examples were demonstrated to apply these concepts effectively.
+
+### JavaScript Concepts:
+- **Loops**: Covered `for`, `while`, and `do-while` loops for iteration.
+- **Conditional Statements**: Discussed `if-else` and `switch` for decision-making.
+- **Comparison Operators**: Explored operators like `==`, `===`, `!=`, `<`, `>`, `<=`, and `>=` for comparing values.
+- **Multiplication Table**: Wrote a script to output the multiplication table of a given number as a practical exercise.
+
+### Task: Hands-on Problem Solving with JavaScript
+- **Find the Largest of Three Numbers**:
+  - Implemented logic to compare three numbers and determine the largest.
+- **Check if a Number is Even or Odd**:
+  - Use conditional statements to check if a number is divisible by 2 using modulo operator.
+- Navigate to task [here](JSpractice/).
+
+This session emphasized problem-solving with **JavaScript** and enhanced understanding of its core concepts.
