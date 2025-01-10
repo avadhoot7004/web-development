@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript objects</h1>
+    <p>In JavaScript, an object is a collection of properties, where each property consists of a key (also known as a property name) and a corresponding value. Objects can store multiple values in a single variable and are a fundamental part of JavaScript.</p>
+    <code>person = {
+        firstName: "Morgan",
+        lastName: "Jones",
+        age: 45
+    };
+    person.fullName = function() {
+        return this.firstName + " " + this.lastName;
+    };</code>
+    <button id="jsobj">Display object</button><br>
+    <p id="print"></p>
+
+    <h1>String methods</h1>
+    <p>A JavaScript string is zero or more characters written inside quotes.</p>
+
+    <h4>There are many string methods as follows:</h4>
+
+    <ul>
+        <li><strong>.length:<br></strong>
+            The length property returns the length of a string. Consider string "ABCDEFGHIJKLMNOPQRSTUVWXYZ" &nbsp; <button onclick = strLen()>Find length</button> <br> 
+        <p id="lenstr"></p> </li>
+
+        <li><strong>substring():<br></strong>
+            Returns the characters in a string between two indexes into the string. Consider the string "Hello World". 
+            <button onclick="strSubstring()">Find substring</button><br>
+            <p id="substrResult1"></p>
+        </li>
+
+        <li><strong>toLocaleLowerCase():<br></strong>
+            The characters within a string are converted to lower case while respecting the current locale. Consider the string "HELLO WORLD".
+            <button onclick="strToLocaleLowerCase()">Convert to lowercase</button><br>
+            <p id="toLocaleLowerCaseResult"></p>
+        </li>
+
+        <li><strong>toLocaleUpperCase():<br></strong>
+            The characters within a string are converted to upper case while respecting the current locale. Consider the string "hello world".
+            <button onclick="strToLocaleUpperCase()">Convert to uppercase</button><br>
+            <p id="toLocaleUpperCaseResult"></p>
+        </li>
+
+        <li><strong>toLowerCase():<br></strong>
+            Returns the calling string value converted to lower case. Consider the string "HELLO WORLD".
+            <button onclick="strToLowerCase()">Convert to lowercase</button><br>
+            <p id="toLowerCaseResult"></p>
+        </li>
+
+        <li><strong>toString():<br></strong>
+            Returns a string representing the specified object. Consider the number 123.
+            <button onclick="strToString()">Convert to string</button><br>
+            <p id="toStringResult"></p>
+        </li>
+
+        <li><strong>toUpperCase():<br></strong>
+            Returns the calling string value converted to uppercase. Consider the string "hello world".
+            <button onclick="strToUpperCase()">Convert to uppercase</button><br>
+            <p id="toUpperCaseResult"></p>
+        </li>
+
+        <li><strong>valueOf():<br></strong>
+            Returns the primitive value of the specified object. Consider the string "Hello".
+            <button onclick="strValueOf()">Get primitive value</button><br>
+            <p id="valueOfResult"></p>
+        </li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
