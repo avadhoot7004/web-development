@@ -1,14 +1,18 @@
 # Internship training at Exaltasoft
 
+---
+
 This is an extensive day-by-day log maintained throughout the duration of the internship. All the tasks can be found in this repository. 
 
 Please leave suggestions and feedback [here](suggestions.txt).
 
 ## Day 0 
+---
 **01-01-2025**
 - Introduction of training programme and general discussion.
 
 ## Day 1
+---
 **02-01-2025**
 - On **Day 1** of the training, the focus was on understanding basic HTML elements and creating a simple web page. 
 - The tasks involved working with various HTML tags such as headings (`<h1>` to `<h6>`), text formatting tags (`<b>`, `<i>`, `<strong>`, etc.), as well as embedding media elements like images, videos, and audio.
@@ -24,6 +28,7 @@ The main task for the day was to create a **signup/login page**. The page includ
 This task provided practice in using HTML forms, input fields, and links for basic navigation between pages.
 
 ## Day 2
+---
 **03-01-2025**
 - On **Day 2** of the training, the focus was on understanding different types of HTML tags for listing and table elements. 
 - The session covered tags like `<li>`, `<dt>`, `<th>`, and `<tr>`, which are used for creating lists and tables.
@@ -46,6 +51,7 @@ The task for the day involved:
 This task provided hands-on experience with structuring content using lists and tables, and it laid the foundation for version control using **Git** and **GitHub**.
 
 ## Day 3
+---
 **06-01-2025**
 - On **Day 3** of the training, the focus was on understanding the basics of **CSS** (Cascading Style Sheets) and how to apply styles to HTML elements.
 - The session covered inline styling, linking an external `styles.css` file, and applying various CSS properties such as fonts, font colors, background colors, centering, and basic CSS selectors like `class` and `id`.
@@ -70,6 +76,7 @@ The main task for the day was to apply **CSS styling** to the **signup/login pag
 This task provided hands-on experience in using **CSS** to style web pages, which is essential for creating user-friendly and visually attractive websites.
 
 ## Day 4
+---
 **07-01-2025**
 - On **Day 4** of the training, we continued exploring **CSS** with a focus on advanced layout techniques such as **Flexbox** and **Grid Layout**. 
 - We also began our journey with **JavaScript (JS)**, covering its basics, syntax, and interaction with HTML.
@@ -102,6 +109,7 @@ This task provided hands-on experience in using **CSS** to style web pages, whic
 - Navigate to the task [here](flexboxGrid/).
 
 ## Day 5  
+---
 **08-01-2025**  
 - On **Day 5** of the training, the focus was on learning **JavaScript concepts** such as variables, scope, operators, strings, and objects. Additionally, **Bootstrap** was introduced for quickly styling and structuring web pages.
 
@@ -170,7 +178,8 @@ This task provided hands-on experience in using **CSS** to style web pages, whic
 This session combined hands-on practice with JavaScript operations and introduced the versatility of Bootstrap for efficient web design.
 
 ## Day 6  
-**13-01-2025**  
+---
+**09-01-2025**  
 - On **Day 6** of the training, the focus was on advanced **JavaScript** concepts, including loops, conditional statements, and comparison operators. Practical examples were demonstrated to apply these concepts effectively.
 
 ### JavaScript Concepts:
