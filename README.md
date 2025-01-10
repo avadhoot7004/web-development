@@ -187,3 +187,32 @@ This session combined hands-on practice with JavaScript operations and introduce
 - Navigate to task [here](JSpractice/).
 
 This session emphasized problem-solving with **JavaScript** and enhanced understanding of its core concepts.
+
+## Day 7  
+**10-01-2025**  
+- On **Day 7** of the training, the focus was on **dialog boxes**, **arrays and array methods**, **JavaScript objects**, and **string methods**. Practical examples were demonstrated to apply these concepts in real-world scenarios.
+
+### JavaScript Concepts:
+- **Dialog Boxes**: Introduced **Confirmation Dialog Box**, explaining how to prompt users for confirmation with `confirm()`.
+- **Arrays and Array Methods**: Discussed various array methods such as printing, sorting, reversing, checking array length, and adding elements using `push()`.
+- **JavaScript Objects**: Covered the concept of objects in JavaScript, creating and manipulating key-value pairs.
+- **Strings and String Methods**: Explored various string methods for manipulating and converting string values.
+
+### String Methods:
+- **substr()**  
+- **substring()**  
+- **toLocaleLowerCase()**   
+- **toLocaleUpperCase()**  
+- **toLowerCase()**   
+- **toString()**  
+- **toUpperCase()**  
+- **valueOf()** 
+
+### Task: 
+- **Dialog Box Task**: Implemented a confirmation dialog box to confirm user actions.
+- **Array Manipulation**: Worked on manipulating arrays using various methods like `push()`, sorting, and reversing.
+- **JavaScript Objects**: Created and modified JavaScript objects with different key-value pairs.
+- **String Manipulation**: Used various string methods to transform and display strings in different cases.
+- Navigate to task here: [Dialog Box](JSpractice/dialogBoxes/), [Arrays](JSpractice/arrays/), [Strings and Objects](JSpractice/objAndStrings/).
+
+This session enhanced practical problem-solving skills with **JavaScript**, particularly in managing arrays, objects, and strings, and working with dialog boxes, And various types of string methods.
