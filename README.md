@@ -216,3 +216,27 @@ This session emphasized problem-solving with **JavaScript** and enhanced underst
 - Navigate to task here: [Dialog Box](JSpractice/dialogBoxes/), [Arrays](JSpractice/arrays/), [Strings and Objects](JSpractice/objAndStrings/).
 
 This session enhanced practical problem-solving skills with **JavaScript**, particularly in managing arrays, objects, and strings, and working with dialog boxes, And various types of string methods.
+
+## Day 8  
+**11-01-2025**  
+- On **Day 8** of the training, a **doubt-solving session** was conducted to address queries from the previous days. Additionally, tasks were assigned to reinforce the concepts of **Flexbox**, **array manipulation**, and **JavaScript functions**.
+
+### Activities:
+- **Doubt-Solving Session**: Addressed any questions any topic covered till this point.
+- **Tasks**: Practical tasks were assigned to solidify understanding of key JavaScript and CSS concepts.
+
+### Tasks:
+1. **Create a Flexbox**:  
+   - Designed a layout using **CSS Flexbox**. Each flex container had images and accompanying text to ensure proper alignment and styling.
+   - Navigate to task [here](flexboxGrid/flexboxImg/).
+
+2. **Store an Array and Display in Alert**:  
+   - Stored an array in JavaScript and displayed its contents in an alert box.
+   - Navigate to task [here](JSpractice/factorial/). 
+   > Note: The code for array is commented inside the code for factorial.
+
+3. **Find the Factorial of a Number**:  
+   - Implemented a JavaScript function to calculate and display the factorial of a user-provided number.
+   - Navigate to task [here](JSpractice/factorial/).
+
+This session provided a hands-on experience with JavaScript functions and CSS Flexbox, fostering better problem-solving and coding practices.
