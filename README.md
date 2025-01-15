@@ -262,9 +262,9 @@ This session provided a hands-on experience with JavaScript functions and CSS Fl
 
 ### Tasks:
 1. **CSS DOM**: Worked on integrating CSS with DOM elements to manipulate styles dynamically. This was demonstrated by manipulating images on a page i.e removing, hiding and resetting.
-  - Navigate to task [here](CSS-DOM/)
+  - Navigate to task [here](CSS-DOM/).
 
 2. **Calculator**: Developed a basic calculator app, utilizing DOM manipulation, events, and RegExp for   input validation.
-  - Navigate to task [here](JSpractice/Calculator/)
+  - Navigate to task [here](JSpractice/Calculator/).
 
 This session enhanced practical skills in **JavaScript** event handling, working with the **DOM**, and implementing **regular expressions** for pattern matching, as well as using **dialog boxes** to interact with users.
