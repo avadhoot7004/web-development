@@ -218,7 +218,7 @@ This session emphasized problem-solving with **JavaScript** and enhanced underst
 This session enhanced practical problem-solving skills with **JavaScript**, particularly in managing arrays, objects, and strings, and working with dialog boxes, And various types of string methods.
 
 ## Day 8  
-**11-01-2025**  
+**13-01-2025**  
 - On **Day 8** of the training, a **doubt-solving session** was conducted to address queries from the previous days. Additionally, tasks were assigned to reinforce the concepts of **Flexbox**, **array manipulation**, and **JavaScript functions**.
 
 ### Activities:
@@ -240,3 +240,31 @@ This session enhanced practical problem-solving skills with **JavaScript**, part
    - Navigate to task [here](JSpractice/factorial/).
 
 This session provided a hands-on experience with JavaScript functions and CSS Flexbox, fostering better problem-solving and coding practices.
+
+## Day 9  
+**16-01-2025**  
+- On **Day 9** of the training, the focus was on **dialog boxes**, **regular expressions and RegExp objects**, **JavaScript events**, and **DOM manipulation**. Practical examples were demonstrated to apply these concepts in real-world scenarios.
+
+### JavaScript Concepts:
+- **Dialog Boxes**: A brief review of dialog boxes was made to ensure clarity on how to prompt users for interactions with `confirm()`, `alert()`, and `prompt()` functions.
+- **Regular Expressions and RegExp Objects**: Introduced the concept of regular expressions (regex) in JavaScript, explaining their use for pattern matching and text validation.
+- **RegExp Object Methods**: Covered RegExp object methods like `exec()` to search for matches in a string.
+- **JavaScript Events**: Focused on JavaScript event handling, demonstrating common events and their use cases in HTML elements.
+- **DOM (Document Object Model)**: Explored the importance of DOM as a language- and platform-independent interface for interacting with HTML and XML documents.
+
+### DOM Structure:
+- **Core DOM**: The basic structure of the DOM, representing the entire document.
+- **XML DOM**: The XML version of the DOM for XML document manipulation.
+- **HTML DOM**: Methods and properties used specifically for manipulating HTML elements in the DOM.
+- **HTML DOM Events**: Covered various HTML DOM events like `click`, `submit`, `keypress`, and more.
+- **onfocus and onblur Functions**: Explained how these functions are used for handling focus and blur events on form elements.
+- **Parsing Parameters**: Discussed how parameters can be parsed within JavaScript for dynamic content manipulation.
+
+### Tasks:
+1. **CSS DOM**: Worked on integrating CSS with DOM elements to manipulate styles dynamically. This was demonstrated by manipulating images on a page i.e removing, hiding and resetting.
+  - Navigate to task [here](CSS-DOM/)
+
+2. **Calculator**: Developed a basic calculator app, utilizing DOM manipulation, events, and RegExp for   input validation.
+  - Navigate to task [here](JSpractice/Calculator/)
+
+This session enhanced practical skills in **JavaScript** event handling, working with the **DOM**, and implementing **regular expressions** for pattern matching, as well as using **dialog boxes** to interact with users.
