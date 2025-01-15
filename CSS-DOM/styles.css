@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 2px solid black;
+    width:100%;
+}
+
+.flex img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    padding: 5px;
+}
+.item button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+.item button {
+    width: 364px;
+}
+.name {
+    text-align: center;
+    margin: -10px 0 0 -10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    
+}
+.name h5 {
+    margin: 5px 0; 
+    padding: 0; 
+    font-size: 16px; 
+    line-height: 1.2; 
+}
+
+
