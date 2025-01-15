@@ -1,0 +1,29 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-frame {
+    margin: 25px auto;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.title {
+    margin-top: -17px;
+    margin-bottom: -17px;
+    padding-left: 5px;
+
+}
+.output-scr {
+    margin: 0 auto;
+    padding: 0;
+    width: 360px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
