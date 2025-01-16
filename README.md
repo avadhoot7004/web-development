@@ -242,7 +242,7 @@ This session enhanced practical problem-solving skills with **JavaScript**, part
 This session provided a hands-on experience with JavaScript functions and CSS Flexbox, fostering better problem-solving and coding practices.
 
 ## Day 9  
-**16-01-2025**  
+**15-01-2025**  
 - On **Day 9** of the training, the focus was on **dialog boxes**, **regular expressions and RegExp objects**, **JavaScript events**, and **DOM manipulation**. Practical examples were demonstrated to apply these concepts in real-world scenarios.
 
 ### JavaScript Concepts:
@@ -268,3 +268,32 @@ This session provided a hands-on experience with JavaScript functions and CSS Fl
   - Navigate to task [here](JSpractice/Calculator/).
 
 This session enhanced practical skills in **JavaScript** event handling, working with the **DOM**, and implementing **regular expressions** for pattern matching, as well as using **dialog boxes** to interact with users.
+
+## Day 10  
+**16-01-2025**  
+- On **Day 10** of the training, the focus shifted towards **animating HTML elements with CSS**, **using `@keyframes` for animations**, **gradients** (linear and radial), **CSS transitions**, and **SQL database CRUD operations**.
+
+### CSS Animation Concepts:
+- **Animating HTML Elements with CSS**: Covered the concept of animating HTML elements using pure CSS. This includes smooth transitions between different states for a better user experience.
+- **@keyframes**: Introduced the `@keyframes` rule in CSS, explaining how to define animations and set keyframes to change styles during the animation.
+  - **Keyframes Data**: Explained how keyframes are structured to define the start and end of the animation, as well as intermediate steps.
+- **Gradients**: Discussed the use of gradients in CSS for background effects.
+  - **Linear Gradient**: Introduced linear gradients to create smooth color transitions.
+  - **Radial Gradient**: Covered the use of radial gradients for creating circular or elliptical color transitions.
+- **CSS Transitions**: Focused on smooth transitions between property changes, such as `hover` effects, using CSS transitions.
+
+### SQL Database Concepts:
+- **CRUD Operations**: Introduced the basics of SQL operations—**Create**, **Read**, **Update**, and **Delete**. Discussed how these operations are the foundation of interacting with databases.
+  - **Create**: Inserting new records into a table.
+  - **Read**: Querying and retrieving records.
+  - **Update**: Modifying existing records in the table.
+  - **Delete**: Removing records from the table.
+
+### Tasks:
+1. **CSS Animations**: Worked on creating animations for HTML elements. Applied `@keyframes`, gradients, and transitions to enhance the user interface.
+  - Navigate to task [here](cssAnimations/).
+
+2. **Write SQL Queries for Login and Sign-Up Forms**: Created SQL queries for handling the login and sign-up functionality. Implemented CRUD operations to manage user data.
+  - Navigate to task [here](loginSignup/data.sql).
+
+This session enhanced practical skills in **CSS animations**, including **keyframes** and **gradients**, and provided hands-on experience with **SQL CRUD operations** for managing user data.
