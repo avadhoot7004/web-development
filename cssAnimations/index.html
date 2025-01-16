@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Box in a Small Section</title>
+    <style>
+        
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(180deg, rgb(255, 99, 71), rgb(255, 165, 0)); /* Vibrant red-orange gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Style the rotating and moving box */
+        .box {
+            width: 100px;
+            height: 100px;
+            background: rgb(255, 105, 180); /* Initial vibrant pink color */
+            border-radius: 12px;
+            position: relative;
+            animation: animate 5s infinite linear;
+        }
+
+        /* Keyframes for rotation, color change, and box movement */
+        @keyframes animate {
+            0% {
+                transform: rotate(0deg); /* Initial rotation */
+                background-color: rgb(255, 105, 180); 
+                top: 0; /* Start at the top-left corner */
+                left: 0;
+            }
+            25% {
+                background-color: rgb(0, 255, 255); 
+                top: 0; /* Move to the top-right corner */
+                left: 200px; /* Move right within the container */
+                transform: rotate(90deg); /* Rotate 90 degrees */
+            }
+            50% {
+                background-color: rgb(255, 69, 0); 
+                top: 200px; /* Move to the bottom-right corner */
+                left: 200px; /* Move right within the container */
+                transform: rotate(180deg); /* Rotate 180 degrees */
+            }
+            75% {
+                background-color: rgb(34, 193, 195); 
+                top: 200px; /* Move to the bottom-left corner */
+                left: 0; /* Move left within the container */
+                transform: rotate(270deg); /* Rotate 270 degrees */
+            }
+            100% {
+                background-color: rgb(255, 105, 180); 
+                top: 0; /* Return to the top-left corner */
+                left: 0;
+                transform: rotate(360deg); /* Complete rotation */
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="box"></div>
+</body>
+</html>
