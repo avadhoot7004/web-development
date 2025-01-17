@@ -284,10 +284,6 @@ This session enhanced practical skills in **JavaScript** event handling, working
 
 ### SQL Database Concepts:
 - **CRUD Operations**: Introduced the basics of SQL operations—**Create**, **Read**, **Update**, and **Delete**. Discussed how these operations are the foundation of interacting with databases.
-  - **Create**: Inserting new records into a table.
-  - **Read**: Querying and retrieving records.
-  - **Update**: Modifying existing records in the table.
-  - **Delete**: Removing records from the table.
 
 ### Tasks:
 1. **CSS Animations**: Worked on creating animations for HTML elements. Applied `@keyframes`, gradients, and transitions to enhance the user interface.
@@ -297,3 +293,11 @@ This session enhanced practical skills in **JavaScript** event handling, working
   - Navigate to task [here](loginSignup/data.sql).
 
 This session enhanced practical skills in **CSS animations**, including **keyframes** and **gradients**, and provided hands-on experience with **SQL CRUD operations** for managing user data.
+
+## Day 11  
+**17-01-2025**  
+- On **Day 11** of the training, more SQL concepts were discussed including **CURD operations**, **WHERE clause**, **order by**, **group by**, **fetching top n entries in a table**, and **join and its types**.
+- In this session many examples of above mentioned concepts were implemented which provided deeper understanding of the concept.
+- Queries were executed on the **sign in**-**sign up** database which was created yesterday.
+
+This session provided insights on how SQL queries are executed in practice, which strengthened SQL understanding and its concepts.
