@@ -296,8 +296,80 @@ This session enhanced practical skills in **CSS animations**, including **keyfra
 
 ## Day 11  
 **17-01-2025**  
-- On **Day 11** of the training, more SQL concepts were discussed including **CURD operations**, **WHERE clause**, **order by**, **group by**, **fetching top n entries in a table**, and **join and its types**.
-- In this session many examples of above mentioned concepts were implemented which provided deeper understanding of the concept.
-- Queries were executed on the **sign in**-**sign up** database which was created yesterday.
 
-This session provided insights on how SQL queries are executed in practice, which strengthened SQL understanding and its concepts.
+- On **Day 11** of the training, the focus was on building a deeper understanding of SQL concepts and their practical applications. The session included extensive discussions and hands-on practice on the following topics:
+
+### SQL Concepts Covered:
+1. **CRUD Operations**:
+   - Refreshed the four fundamental SQL operations—**Create**, **Read**, **Update**, and **Delete**.
+   - Practiced modifying records in a database using these operations to manage data effectively.
+
+2. **WHERE Clause**:
+   - Learned how to use the `WHERE` clause to filter data based on specific conditions.
+   - Explored various operators, such as comparison operators (`=`, `<`, `>`, `!=`) and logical operators (`AND`, `OR`, `NOT`).
+
+3. **ORDER BY Clause**:
+   - Discussed how to sort data in ascending or descending order using the `ORDER BY` clause.
+   - Applied sorting on different columns to better analyze data.
+
+4. **GROUP BY Clause**:
+   - Understood the role of `GROUP BY` in grouping data based on one or more columns.
+   - Used aggregate functions like `SUM`, `AVG`, `COUNT`, `MIN`, and `MAX` in combination with `GROUP BY` to perform calculations on grouped data.
+
+5. **Fetching Top N Entries**:
+   - Explored methods to retrieve the top `n` rows from a table using clauses like `LIMIT` (in MySQL) and `FETCH FIRST` (in SQL Server).
+
+### Hands-On Practice:
+- Queries were executed on the **sign-in/sign-up database** created during Day 10's session. These queries focused on real-world scenarios, such as:
+  - Filtering users based on their name.
+  - Sorting records by username or other attributes.
+  - Grouping users by account type and calculating the total number of users in each category.
+  - Fetching the most recent sign-ups or the top 5 most active users.
+
+### Learning Outcome:
+This session emphasized the practical execution of SQL queries, enhancing participants' confidence in:
+- Applying SQL concepts in real-life projects.
+- Understanding how to filter, sort, group, and manipulate data effectively.
+- Gaining proficiency in using `CRUD`, `WHERE`, `ORDER BY`, and `GROUP BY` clauses.
+
+By combining theoretical knowledge with hands-on practice, this session significantly strengthened the foundation of SQL concepts.
+
+## Day 12  
+**20-01-2025**  
+- On **Day 12** of the training, the focus was on advanced SQL concepts and database design principles. This included examples of grouping and sorting data, various types of SQL joins, and steps for designing an efficient database.
+
+### SQL Concepts:
+- **Examples on `GROUP BY` and `ORDER BY`**: Explored how to group data using `GROUP BY` and sort the data with `ORDER BY` clauses for better data organization and analysis.
+- **Joins and Its Types**: Covered the concept of joins in SQL and their practical use cases to retrieve data from multiple tables:
+  - **Inner Join**: Discussed how to fetch only matching rows between tables.
+  - **Outer Join**: Explored retrieving rows that do not have matches in one or both tables.
+- **Using the `HAVING` Clause**: Explained how to filter grouped records using the `HAVING` clause in SQL.
+
+### Database Design Concepts:
+- **Steps for Designing a Database**:
+  1. **Purpose of Database**: Identified the purpose, such as creating an **Employee** database.
+  2. **Information**: Gathered the dataset and defined the data requirements.
+  3. **Divide Data into Tables**: Split the dataset into multiple tables (e.g., **Employee**, **Manager**).
+  4. **Columns**: Defined the columns required for each table (e.g., `id`, `name`).
+  5. **Primary Keys**: Established unique identifiers for each table.
+  6. **Table Relationships**: Defined relationships between tables (e.g., Employee and Manager).
+  7. **Design**: Created a preliminary design for the database schema.
+  8. **Normalization Rules**: Applied normalization principles to reduce redundancy and ensure data integrity.
+
+- **Primary Key and Foreign Key**:
+  - **Primary Key**: Defined as a unique identifier for each record in a table.
+  - **Foreign Key**: Used to establish relationships between tables by referencing the primary key of another table.
+
+- **Database Relationships**:
+  - **One-to-One**
+  - **Many-to-Many**
+  - **Many-to-One**
+  - **One-to-Many**
+
+- **ERD Drawing Tool**: Introduced tools for drawing Entity-Relationship Diagrams (ERDs) to visualize the database structure.
+
+### Task:
+2. **Database Design Task**: Designed a database for a **Bank** with either an ERD or the actual database implementation.
+  - Navigate to task [here](bankDatabase/).
+
+This session provided a deeper understanding of how to design efficient databases and visually represent them using ER diagrams. Covered the purpose and components of ER diagrams, including entities, attributes, and relationships, as well as how they connect to relational schemas.
