@@ -369,7 +369,51 @@ By combining theoretical knowledge with hands-on practice, this session signific
 - **ERD Drawing Tool**: Introduced tools for drawing Entity-Relationship Diagrams (ERDs) to visualize the database structure.
 
 ### Task:
-2. **Database Design Task**: Designed a database for a **Bank** with either an ERD or the actual database implementation.
+- **Database Design Task**: Designed a database for a **Bank** with either an ERD or the actual database implementation.
   - Navigate to task [here](bankDatabase/).
 
 This session provided a deeper understanding of how to design efficient databases and visually represent them using ER diagrams. Covered the purpose and components of ER diagrams, including entities, attributes, and relationships, as well as how they connect to relational schemas.
+
+## Day 13  
+**21-01-2025**  
+- On **Day 13** of the training, the focus was on understanding the foundational concepts of Java programming. The session covered the basics of Java, including its features, object-oriented principles, and practical applications.
+
+### Features of Java:
+- **Objects and Classes**:
+  - **Class**: Represents a logical existence and blueprint for objects.
+  - **Object**: Represents a physical entity created based on a class.
+
+### Applications of Java:
+- Discussed various real-world applications of Java, including web development, mobile applications, desktop GUI applications, and enterprise systems.
+
+### IDEs for Java:
+- Introduced popular IDEs for Java development:
+  - **Eclipse**
+  - **IntelliJ IDEA**
+
+### First Java Program:
+- Created a simple Java program to print "Hello, World!" and explained the structure of a Java program, including the `main` method and the importance of the `public` and `static` keywords.
+
+### Identifiers:
+- Discussed the naming conventions and rules for defining identifiers in Java.
+  - Identifiers must start with a letter, `_`, or `$`.
+  - They cannot use Java reserved keywords.
+
+### Data Types:
+- Covered the different data types in Java:
+  - **Primitive Data Types**: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`
+  - **Non-Primitive Data Types**: Strings, arrays, and objects.
+
+### Local and Global Variables:
+- **Local Variables**: Declared inside a method and accessible only within that method.
+- **Global Variables**: Declared outside methods but inside a class. Available to all methods in the class.
+
+### Static and Non-Static Variables:
+- **Static Variables**: Shared among all instances of a class. Declared with the `static` keyword.
+- **Non-Static Variables**: Instance-specific variables. Each object has its own copy of these variables.
+
+### Task:
+- **Java Code Task**: Write a Java program demonstrating all data types in Java.
+  - Navigate to task [here](java/DataTypes/)
+
+This session provided a solid foundation in Java programming concepts and practices.
