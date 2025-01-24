@@ -415,3 +415,53 @@ This session provided a deeper understanding of how to design efficient database
   - Navigate to task [here](java/DataTypes/)
 
 This session provided a solid foundation in Java programming concepts and practices.
+
+## Day 14  
+**22-01-2025**  
+- On **Day 14** of the training, the focus was on understanding classes, objects, and array operations in Java. The session also delved into Java strings and their methods.
+
+### Classes and Objects:
+- **Class Declaration**:
+  - Discussed how to declare a class in Java, including the syntax and structure.
+
+- **Access Modifiers**:
+  - **`public`**: Accessible from any other class.
+  - **`private`**: Accessible only within the class it is declared.
+  - **`protected`**: Accessible within the same package and subclasses.
+
+- **Object Creation**:
+  - Demonstrated how to create an object using the `new` keyword.
+
+- **Accessing Class Members**:
+  - Explained how to use objects to access fields and methods of a class.
+
+### Arrays and Their Operations:
+- **Sum of Array Elements**:
+  - Created a program to calculate the sum of all elements in an array.
+
+- **`Arrays.binarySearch`**:
+  - Covered how to search for an element in a sorted array using the `binarySearch` method from the `Arrays` class.
+
+- **`Arrays.sort`**:
+  - Demonstrated sorting an array using the `sort` method from the `Arrays` class.
+
+- **String Arrays**:
+  - Explained how to declare and manipulate arrays of strings.
+
+### Java Strings and Their Methods:
+- Discussed the properties and methods of the `String` class in Java, including:
+  - **`length()`**: Retrieves the length of the string.
+  - **`substring()`**: Extracts a portion of the string.
+  - **`equals()`**: Compares two strings for equality.
+  - **`toUpperCase()` and `toLowerCase()`**: Converts the string to uppercase or lowercase.
+
+### Task:
+1. **Java Code Task**:
+   - Write a Java program to demonstrate the use of classes and objects.
+    - Navigate to task [here](java/ArraysAndOperations/)
+
+2. **Java Code Task**:
+   - Write a Java program to demonstrate arrays and their operations.
+     - Navigate to task [here](java/Arrays/)
+
+This session provided an in-depth understanding of working with classes, objects, and arrays in Java, along with practical exposure to string manipulation.
