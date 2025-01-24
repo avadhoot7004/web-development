@@ -458,10 +458,10 @@ This session provided a solid foundation in Java programming concepts and practi
 ### Task:
 1. **Java Code Task**:
    - Write a Java program to demonstrate the use of classes and objects.
-    - Navigate to task [here](java/ArraysAndOperations/)
+    - Navigate to task [here](java/ClassesAndObjects/).
 
 2. **Java Code Task**:
    - Write a Java program to demonstrate arrays and their operations.
-     - Navigate to task [here](java/Arrays/)
+     - Navigate to task [here](java/Arrays/).`
 
 This session provided an in-depth understanding of working with classes, objects, and arrays in Java, along with practical exposure to string manipulation.
