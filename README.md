@@ -1,8 +1,6 @@
 # Internship training at Exaltasoft
 
-This is an extensive day-by-day log maintained throughout the duration of the internship. All the tasks can be found in this repository. 
-
-Please leave suggestions and feedback [here](suggestions.txt).
+This is an extensive day-by-day log maintained throughout the duration of the internship. All the tasks can be found in this repository.
 
 ## Day 0 
 **01-01-2025**
