@@ -465,3 +465,81 @@ This session provided a solid foundation in Java programming concepts and practi
      - Navigate to task [here](java/Arrays/).`
 
 This session provided an in-depth understanding of working with classes, objects, and arrays in Java, along with practical exposure to string manipulation.
+
+## Day 15
+
+**25-01-2025**
+
+- On **Day 15** of the training, the focus was on advanced Object-Oriented Programming (OOP) concepts, including object creation, methods, polymorphism, constructors, destructors, and inheritance. The session also explored encapsulation and static members in detail.
+
+### Object Creation:
+
+- **Arrays of Objects**:
+  - Discussed how to create and use arrays to store and manipulate multiple objects.
+
+### Methods:
+- **Types of Methods**:
+
+  - **Pre-defined Methods**: Functions provided by the language/library.
+  - **User-defined Methods**: Functions created by the user for specific operations.
+
+- **Getters and Setters**:
+  - Implemented getters and setters to provide controlled access to private variables.
+
+- **Abstract Methods**:
+  - Discussed abstract methods and how they enforce implementation in child classes.
+
+### Polymorphism:
+- **Compile-Time Polymorphism**:
+  - Achieved using **method overloading**.
+
+- **Runtime Polymorphism**:
+  - Achieved using **method overriding**.
+
+### Constructors:
+- **Parameterized and Non-Parameterized Constructors**:
+  - **Non-Parameterized Constructor**: Initializes an object with default values.
+  - **Parameterized Constructor**: Allows setting initial values for fields.
+
+- **Constructor Overloading**:
+  - Explored multiple constructors with different parameters.
+
+- **Constructor Overriding (Task)**:
+  - Investigated inheritance and constructor behavior during overriding.
+
+### Destructor:
+- Understood destructors for cleanup operations (e.g., `finalize()` in Java).
+
+### `this` Keyword:
+- Used `this` keyword to refer to the current instance of the class.
+
+### Static Members:
+- Learned how static variables and methods belong to the class, not instances.
+- Implemented static methods and accessed them directly without creating an object.
+
+### Inheritance:
+
+- **`extends`** Keyword:
+  - Used `extends` to establish parent-child relationships between classes.
+
+- **Types of Inheritance**:
+
+  1. **Single Inheritance**: One class inherits from another.
+  2. **Multilevel Inheritance**: A class inherits from another class which itself inherits from another.
+  3. **Hierarchical Inheritance**: Multiple classes inherit from a single parent class.
+  4. **Multiple Inheritance**: Achieved using interfaces in Java.
+
+### Encapsulation:
+- Implemented encapsulation by bundling data (fields) and methods into a single class.
+- Restricted access to fields using private access modifiers and exposed them through getters/setters.
+
+### Task:
+1. **Overloading and overriding**:
+- Write a Java program to demonstrate method overloading and overriding.
+  - Navigate to task [here](java/oops/).
+
+2. **Inheritance types**:
+- Write a Java program to demonstrate inheritance types.
+  - Navigate to task [here](java/oops/).
+
+This session provided an in-depth understanding of advanced OOP concepts and their practical implementation.
