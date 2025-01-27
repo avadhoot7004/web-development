@@ -543,3 +543,85 @@ This session provided an in-depth understanding of working with classes, objects
   - Navigate to task [here](java/oops/).
 
 This session provided an in-depth understanding of advanced OOP concepts and their practical implementation.
+
+## Day 16  
+**27-01-2025**  
+- On **Day 16** of the training, the focus was on understanding **Exception Handling in Java**, covering various types of exceptions, errors, and handling techniques. The session also explored keywords like `throw` and `throws`, and how the Java Virtual Machine (JVM) handles exceptions.
+
+### Exception Handling in Java:
+#### Types of Exceptions:
+1. **Checked Exceptions**:
+   - Exceptions that are checked at compile time.
+   - Examples:
+     - `IOException`
+     - `SQLException`
+
+2. **Unchecked Exceptions**:
+   - Exceptions that occur at runtime.
+   - Examples:
+     - `ArithmeticException`
+     - `NullPointerException`
+
+#### Errors:
+- Errors are serious issues that cannot be handled by the program.
+- Examples:
+  1. **OutOfMemoryError**:
+     - Occurs when the JVM runs out of memory.
+  2. **VirtualMachineError**:
+     - Indicates a problem with the JVM.
+  3. **StackOverflowError**:
+     - Happens when a recursive call does not terminate properly.
+
+### Exception Handling Techniques:
+#### How JVM Handles an Exception:
+- When an exception occurs:
+  1. JVM searches for an appropriate **catch block** in the current method.
+  2. If none is found, it propagates the exception to the caller method.
+  3. If no catch block is found in the call stack, the program terminates abnormally.
+
+#### Multiple Catch Statements:
+- Allows handling multiple exceptions in a single `try` block.
+- Example:
+  ```java
+  try {
+      int[] numbers = {1, 2, 3};
+      System.out.println(numbers[5]); // ArrayIndexOutOfBoundsException
+  } catch (ArithmeticException e) {
+      System.out.println("Arithmetic Exception: " + e.getMessage());
+  } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("Array Index Out Of Bounds Exception: " + e.getMessage());
+  }
+  ```
+
+#### `throw` Keyword:
+- Used to explicitly throw an exception.
+- Example:
+  ```java
+  public void validateAge(int age) {
+      if (age < 18) {
+          throw new IllegalArgumentException("Age must be 18 or above.");
+      }
+  }
+  ```
+
+#### `throws` Keyword:
+- Declares exceptions that a method might throw.
+- Example:
+  ```java
+  public void readFile() throws IOException {
+      FileReader file = new FileReader("test.txt");
+  }
+  ```
+
+### Task:
+- **Create Exception Cases for an Electronics Shop**:
+  - Example scenarios include:
+    1. **OutOfStockException**:
+       - Thrown when an item requested by a customer is not available.
+    2. **InvalidPaymentException**:
+       - Thrown when payment details are invalid.
+    3. **WarrantyExpiredException**:
+       - Thrown when a customer tries to claim a warranty after its expiration.
+  -Navigate to taks [here](java/exceptionHandling/).
+
+This session provided a detailed understanding of exception handling mechanisms in Java and how they can be used to build robust applications.
