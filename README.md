@@ -99,6 +99,8 @@ This task provided hands-on experience in using **CSS** to style web pages, whic
 - This included revising basics of JS and trying out the newly learnt CSS concepts.
 - Navigate to the task [here](flexboxGrid/).
 
+This session provided understanding of the flexbox model, grid layouts and basic JavaScript concepts.
+
 ## Day 5  
 **08-01-2025**  
 - On **Day 5** of the training, the focus was on learning **JavaScript concepts** such as variables, scope, operators, strings, and objects. Additionally, **Bootstrap** was introduced for quickly styling and structuring web pages.
@@ -622,6 +624,84 @@ This session provided an in-depth understanding of advanced OOP concepts and the
        - Thrown when payment details are invalid.
     3. **WarrantyExpiredException**:
        - Thrown when a customer tries to claim a warranty after its expiration.
+  
   -Navigate to taks [here](java/exceptionHandling/).
 
 This session provided a detailed understanding of exception handling mechanisms in Java and how they can be used to build robust applications.
+
+## Day 17  
+**30-01-2025**  
+
+On **Day 17** of the training, the focus was on understanding **Collections in Java**. The session covered the Java Collections Framework, various interfaces, classes, and their specific use cases. Additionally, practical implementations and differences between collection types were explored.
+
+### Collections in Java:
+#### Java Collections Framework:
+- A framework that provides an architecture to store and manipulate groups of objects efficiently.
+- Includes interfaces and classes that help manage data structures dynamically.
+
+### Important Interfaces and Classes:
+
+#### **Collection Interface:**
+- The root interface of the Java Collections Framework.
+- Methods:
+  - `add(E e)`: Adds an element to the collection.
+  - `remove(Object o)`: Removes a specific element.
+  - `size()`: Returns the number of elements.
+  - `clear()`: Removes all elements.
+  - `contains(Object o)`: Checks if an element exists.
+
+#### **List Interface:**
+- An ordered collection (also known as a sequence).
+- Allows duplicate elements.
+- Implementations:
+  1. **ArrayList**:
+     - Resizable-array implementation.
+     - Fast for retrieving elements.
+     - Slower for insertions and deletions in the middle.
+  2. **LinkedList**:
+     - Doubly-linked list implementation.
+     - Fast insertions and deletions.
+     - Slower random access.
+  3. **Vector**:
+     - Synchronized and thread-safe.
+     - Similar to `ArrayList` but less preferred due to overhead.
+  4. **Stack**:
+     - Follows **LIFO (Last In, First Out)** principle.
+     - Methods:
+       - `push(E e)`: Adds an element to the stack.
+       - `pop()`: Removes and returns the top element.
+       - `peek()`: Returns the top element without removing it.
+
+#### **Queue Interface:**
+- Follows **FIFO (First In, First Out)** principle.
+- Implementations:
+  - **PriorityQueue**: Orders elements based on priority.
+  - **Deque (Double-ended Queue)**: Allows insertion and deletion from both ends.
+
+#### **Set Interface:**
+- A collection that does not allow duplicate elements.
+- Implementations:
+  1. **HashSet**:
+     - Unordered collection.
+     - Uses hashing for fast access.
+  2. **LinkedHashSet**:
+     - Maintains insertion order.
+  3. **TreeSet** (Implements **SortedSet Interface**):
+     - Maintains elements in sorted order.
+
+#### **Iterator Interface:**
+- Used to traverse collections.
+- Methods:
+  - `hasNext()`: Checks if more elements are available.
+  - `next()`: Returns the next element.
+  - `remove()`: Removes the current element.
+  
+### Task:
+- **Practice Methods of Collections & Compare Their Use Cases**
+  - Implement various collection methods.
+  - Write differences between `ArrayList`, `LinkedList`, `HashSet`, and `TreeSet`.
+  - Explain their specific use cases with examples.
+  
+  - Navigate to tasks [here](java/collections/).
+
+This session provided a deep dive into Java Collections and how to use them effectively for data management in applications.
