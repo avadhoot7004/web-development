@@ -705,3 +705,53 @@ On **Day 17** of the training, the focus was on understanding **Collections in J
   - Navigate to tasks [here](java/collections/).
 
 This session provided a deep dive into Java Collections and how to use them effectively for data management in applications.
+
+## Day 18  
+**31-01-2025**  
+
+On **Day 18** of the training, the focus was on understanding **File Handling in Java**. The session covered file operations, path handling, working with packages and classes, and different types of links.
+
+### File Handling in Java:
+- File handling allows Java programs to create, read, update, and delete files.
+
+### Absolute and Relative Paths:
+- **Absolute Path**: Specifies the complete path from the root directory.
+- **Relative Path**: Specifies the path relative to the current working directory.
+
+### Packages and Classes:
+- **Packages** help organize Java classes into namespaces to avoid name conflicts.
+- **Classes** inside packages must be imported to be used in other files.
+
+### Path Interfaces:
+- `Path` is an interface in Java used to represent file and directory paths.
+- Commonly used with `java.nio.file` package.
+- Methods:
+  - `getFileName()`: Returns the name of the file or directory.
+  - `getParent()`: Returns the parent path.
+  - `toAbsolutePath()`: Converts a relative path to an absolute path.
+
+### File Handling Methods:
+- `createNewFile()`: Creates a new file.
+- `mkdir()`: Creates a new directory.
+- `delete()`: Deletes a file or directory.
+- `exists()`: Checks if a file or directory exists.
+- `length()`: Returns the size of the file.
+
+### Symbolic Links and Hard Links:
+- **Symbolic Link**:
+  - A pointer to another file or directory.
+  - Can point to files across different file systems.
+- **Hard Link**:
+  - A duplicate reference to the same file in the file system.
+  - Remains valid even if the original file is deleted.
+
+### Task:
+- **Practice File Handling Operations & Path Methods**
+  - Create files and directories using Java.
+  - Implement symbolic and hard links.
+  - Explore `Path` interface methods.
+  
+  - Navigate to tasks [here](java/fileHandling/).
+
+This session provided an in-depth understanding of Java File Handling and how it helps in managing file operations efficiently.
+
