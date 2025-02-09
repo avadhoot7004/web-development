@@ -755,3 +755,86 @@ On **Day 18** of the training, the focus was on understanding **File Handling in
 
 This session provided an in-depth understanding of Java File Handling and how it helps in managing file operations efficiently.
 
+## Day 19  
+**03-02-2025**  
+
+On **Day 19** of the training, the focus was on understanding the **Spring Framework**. The session covered an introduction to Spring, its architecture, important annotations, dependency injection, and Spring MVC. Additionally, logic-building tasks related to inheritance and method overriding were covered.
+
+### Spring Framework:
+#### Overview:
+- Spring is a powerful framework for Java-based applications that simplifies development and management.
+- It provides comprehensive infrastructure support for developing Java applications.
+
+#### Why Use Spring?
+- Simplifies enterprise application development.
+- Provides loose coupling through dependency injection.
+- Reduces boilerplate code.
+- Supports multiple configurations (XML, Java-based, and annotation-based).
+
+#### Components of Spring:
+- **Spring Core**: Manages bean creation and dependency injection.
+- **Spring AOP (Aspect-Oriented Programming)**: Provides cross-cutting concerns (e.g., logging, security).
+- **Spring Data Access**: Simplifies database operations.
+- **Spring MVC**: Supports web application development.
+- **Spring Security**: Provides authentication and authorization.
+
+### Spring Framework Architecture:
+#### Spring Container:
+- The **Spring Container** is responsible for managing the lifecycle and configuration of beans.
+- Uses **IoC (Inversion of Control)** to handle dependencies.
+
+#### Beans and Dependencies:
+- **Beans** are objects managed by the Spring container.
+- Dependencies are injected into beans using **Dependency Injection (DI)**.
+
+### Spring Annotations:
+#### Introduction:
+- Annotations in Spring simplify configuration and eliminate the need for XML.
+
+#### Important Annotations:
+- **@Component**: Marks a class as a Spring-managed component.
+- **@Service**: Specifies a service component.
+- **@Repository**: Marks a DAO (Data Access Object) component.
+- **@Controller**: Defines a Spring MVC controller.
+- **@Autowired**: Automatically injects dependencies.
+- **@Value**: Injects values into fields.
+
+### Spring Dependency Injection:
+#### Introduction:
+- Dependency Injection (DI) is a design pattern used to implement IoC.
+- Helps achieve **loose coupling** between objects.
+
+#### Types of Dependency Injection:
+1. **Constructor-based Injection**:
+   - Dependencies are injected via the constructor.
+
+2. **Setter-based Injection**:
+   - Dependencies are injected using setter methods.
+
+#### **@Qualifier Annotation**:
+- Used when multiple beans of the same type exist.
+- Helps specify which bean to inject.
+
+### Spring MVC:
+#### Introduction:
+- Spring MVC is a module for building web applications.
+
+#### Important Components:
+- **DispatcherServlet**: Front controller that handles requests and responses.
+- **@Controller**: Marks a class as a web controller.
+- **@RequestMapping**: Maps URLs to controller methods.
+- **@RequestParam**: Extracts request parameters.
+
+### Hands-on Logic Building Tasks:
+#### **1. Inheritance Example & Method Overriding:**
+
+#### **2. Check if a Number is Armstrong or Not:**
+
+### Task:
+- **1.Demonstrate Inheritance and Method Overloading**
+  - Navigate to tasks [here](java/springBasics/).
+
+- **2.Write java code for Armstrong Number Problem.**
+  - Navigate to tasks [here](java/ArmstrongNumebr/).
+
+This session provided a solid foundation for understanding the Spring Framework and its core concepts.
