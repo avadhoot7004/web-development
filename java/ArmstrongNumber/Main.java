@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
-    public void isArmstrong(int num) {
-        int originalNum = num;
-        int cubedSum = 0;
-        int temp;
+    public void isArmstrong(long num) {
+        long originalNum = num;
+        long digits = String.valueOf(num).length();
+        long exonentSum = 0;
+        long temp;
+
         while (num > 0) {
             temp = num % 10;
-            cubedSum += Math.pow(temp, 3);
+            exonentSum += Math.pow(temp, digits);
             num = num / 10;
         }
-        if (cubedSum == originalNum) {
+        if (exonentSum == originalNum) {
             System.out.println(originalNum + " is an Armstrong Number.");
         } else {
             System.out.println(originalNum + " is not an Armstrong Number.");
@@ -21,8 +23,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number you want to check: ");
-        int number = sc.nextInt();
+        System.out.print("Enter the number you want to check: "); //used long to check 4679307774 which is out of int range and is an armstrong number
+        long number = sc.nextLong(); 
 
         obj.isArmstrong(number);
     }
