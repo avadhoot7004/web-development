@@ -625,7 +625,7 @@ This session provided an in-depth understanding of advanced OOP concepts and the
     3. **WarrantyExpiredException**:
        - Thrown when a customer tries to claim a warranty after its expiration.
   
-  -Navigate to taks [here](java/exceptionHandling/).
+  -Navigate to task [here](java/exceptionHandling/).
 
 This session provided a detailed understanding of exception handling mechanisms in Java and how they can be used to build robust applications.
 
@@ -702,7 +702,7 @@ On **Day 17** of the training, the focus was on understanding **Collections in J
   - Write differences between `ArrayList`, `LinkedList`, `HashSet`, and `TreeSet`.
   - Explain their specific use cases with examples.
   
-  - Navigate to tasks [here](java/collections/).
+  - Navigate to task [here](java/collections/).
 
 This session provided a deep dive into Java Collections and how to use them effectively for data management in applications.
 
@@ -751,7 +751,7 @@ On **Day 18** of the training, the focus was on understanding **File Handling in
   - Implement symbolic and hard links.
   - Explore `Path` interface methods.
   
-  - Navigate to tasks [here](java/fileHandling/).
+  - Navigate to task [here](java/fileHandling/).
 
 This session provided an in-depth understanding of Java File Handling and how it helps in managing file operations efficiently.
 
@@ -847,10 +847,10 @@ On **Day 20** of the training, the session was a **Practice Session** focused on
 ### Tasks:
 #### **1. Java program to check if a given string or number is a palindrome.**
 - A palindrome is a word, number, phrase, or other sequence of characters that reads the same forward and backward.
-  - Navigate to tasks [here](java/Palindrome/).
+  - Navigate to task [here](java/Palindrome/).
 
 #### **2. Implementing a Contact Us Form with SQL Database:**
-This task involved creating a fully functional **Contact Us** form using **HTML, CSS**, and **SQL** for storing user inputs in a database.
-  - Navigate to tasks [here](contactUsForm/).
+- This task involved creating a fully functional **Contact Us** form using **HTML, CSS**, and **SQL** for storing user inputs in a database.
+  - Navigate to task [here](contactUsForm/).
 
 This session helped reinforce fundamental Java concepts and revise web development technologies, ensuring a strong foundation for upcoming topics like **Spring Boot** and **React**.
