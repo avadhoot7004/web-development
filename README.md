@@ -838,3 +838,19 @@ On **Day 19** of the training, the focus was on understanding the **Spring Frame
   - Navigate to tasks [here](java/ArmstrongNumebr/).
 
 This session provided a solid foundation for understanding the Spring Framework and its core concepts.
+
+## Day 20  
+**10-02-2025**  
+
+On **Day 20** of the training, the session was a **Practice Session** focused on strengthening Java understanding and revising HTML, CSS concepts. This was done in preparation for moving on to **Spring Boot** and **React**.
+
+### Tasks:
+#### **1. Java program to check if a given string or number is a palindrome.**
+- A palindrome is a word, number, phrase, or other sequence of characters that reads the same forward and backward.
+  - Navigate to tasks [here](java/Palindrome/).
+
+#### **2. Implementing a Contact Us Form with SQL Database:**
+This task involved creating a fully functional **Contact Us** form using **HTML, CSS**, and **SQL** for storing user inputs in a database.
+  - Navigate to tasks [here](contactUsForm/).
+
+This session helped reinforce fundamental Java concepts and revise web development technologies, ensuring a strong foundation for upcoming topics like **Spring Boot** and **React**.
