@@ -854,3 +854,20 @@ On **Day 20** of the training, the session was a **Practice Session** focused on
   - Navigate to task [here](contactUsForm/).
 
 This session helped reinforce fundamental Java concepts and revise web development technologies, ensuring a strong foundation for upcoming topics like **Spring Boot** and **React**.
+
+## Day 21  
+**11-02-2025**  
+
+On **Day 21** of the training, the session focused on setting up the development environment for **React** by installing necessary tools and initializing a React project.
+
+#### **1. Installed Node.js**
+- Installed **Node.js** to enable running JavaScript outside the browser and use npm (Node Package Manager) for managing dependencies.
+
+#### **2. Setting up Environment for React Project**
+- Configured the development environment by ensuring the necessary tools like **Node.js, npm, and VS Code** were properly set up.
+
+#### **3. Initialized React Project**
+- Created a new **React** project using `create-react-app` and verified the setup by running the development server.
+
+This session established the groundwork for working with **React**, ensuring that the necessary tools and environment were properly configured for future development.
+
