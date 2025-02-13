@@ -871,3 +871,19 @@ On **Day 21** of the training, the session focused on setting up the development
 
 This session established the groundwork for working with **React**, ensuring that the necessary tools and environment were properly configured for future development.
 
+## Day 22  
+**12-02-2025**  
+
+On **Day 22** of the training, the session focused on understanding the core concepts of **Props and State** in React.
+
+### Tasks:
+#### **1. Understanding Props in React**
+- Explored how **props** allow passing data from parent to child components in a React application.
+  - Navigate to task [here](my-react-app/src/App.js).
+
+#### **2. Managing State in React**
+- Learned about **state** in React, how it helps in managing component data dynamically, and the difference between props and state.
+  - Navigate to task [here](my-react-app/src/App.js).
+
+This session provided a foundational understanding of how **React components** communicate and manage data efficiently using **props and state**.
+
