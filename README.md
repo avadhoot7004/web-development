@@ -887,3 +887,67 @@ On **Day 22** of the training, the session focused on understanding the core con
 
 This session provided a foundational understanding of how **React components** communicate and manage data efficiently using **props and state**.
 
+## Day 23  
+**13-02-2025**  
+
+On **Day 23** of the training, the session focused on reviewing previous tasks, addressing doubts, and initiating a live project development for an **E-commerce website for a plant nursery**.
+
+#### **1. Follow-up Session (Task Follow-up)**
+- Reviewed tasks from previous sessions to ensure proper understanding and implementation.
+
+#### **2. Session Feedback and Doubt Solving**
+- Gathered feedback on the learning progress and adjusted the approach accordingly.
+
+#### **3. Live Project Building - Ecommerce Website for Plant Nursery**
+- **Requirements Gathering**: Discussed the core features and objectives of the e-commerce website.
+- **Components Breakdown**: Identified key components such as **Product Listing, Cart, Checkout, and Authentication**.
+- **Features Planning**:
+  - Product browsing with filtering options.
+  - User authentication and profile management.
+  - Shopping cart functionality with order summary.
+  - Payment integration for seamless transactions.
+  - Responsive design for mobile and desktop compatibility.
+
+This session set the foundation for the **E-commerce project**, ensuring clarity on project scope, structure, and essential components.
+
+## Day 24  
+**14-02-2025**  
+
+On **Day 24** of the training, the session focused on breaking down the **E-commerce project** and setting up key components for development.
+
+#### **1. Breakdown of Project**
+- Defined the structure and features required for the **E-commerce application**.
+
+#### **2. Core Requirements**
+- **Buy Products**: Users can browse and purchase items.
+- **Add to Cart**: Functionality to add and manage cart items.
+- **Sign Up / Sign In**: Authentication system for user access.
+- **Contact Features**: Users can send emails to the admin.
+
+#### **3. Frontend Development**
+- **Home Page**
+- **About Us Page**
+- **Products Section**
+  - Categories for better browsing.
+  - Users can purchase items, make payments, and cancel orders.
+  - **Contact Us**: Users can send emails to the admin.
+- **User Management**
+  - Profile page with user details and order history.
+  - Sign-in and sign-up functionality for unregistered users.
+
+#### **4. Database Setup**
+- Stores user details, products, and payment information.
+- Using **SQL** for database management.
+
+#### **5. Integration Plan**
+- Connecting **frontend** with **database** using **Java**.
+
+#### **6. Development Progress**
+- Created **Navbar** for the E-commerce website.
+
+#### **7. Tasks for Next Session**
+- Implement **Sign In & Sign Up** functionality.
+- Develop **Contact Us** page.
+- Design **Categories Page** using **Flexbox**.
+
+This session laid the foundation for the **E-commerce project**, ensuring a clear development roadmap.
