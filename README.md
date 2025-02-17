@@ -951,3 +951,50 @@ On **Day 24** of the training, the session focused on breaking down the **E-comm
 - Design **Categories Page** using **Flexbox**.
 
 This session laid the foundation for the **E-commerce project**, ensuring a clear development roadmap.
+
+## Day 25  
+**16-02-2025**  
+
+On **Day 25** of the training, the session focused on a **follow-up session** for the given task and a discussion on what changes to be made or what features to be added in the web-page.
+
+I created a **restaurant website** with the following features:
+
+1. **Home Page:**
+   - Displays the restaurant’s **specialty** and **highlights** to attract customers.
+
+2. **Booking and Catering Enquiry:**
+   - Customers can **fill out forms** to **book a table** or **enquire about catering** services.
+   - Used **JavaScript** to ensure that the **dates and times** selected are in the future and fall within the restaurant's **working hours**.
+
+3. **Menu Section:**
+   - Users can browse through the restaurant’s **menu** to view available dishes.
+
+4. **Shopping Cart Functionality:**
+   - Users can **add items to their cart** from the menu section.
+   - On the **cart page**, users can:
+     - View the items they’ve added to the cart.
+     - **Remove** items or **update the quantity**.
+     - See the **total sum** of all the item prices.
+
+5. **Transaction Completion:**
+   - Users can click on **Buy Now** to **complete the transaction** and finalize their order.
+
+## Day 26  
+**17-02-2025**  
+
+On **Day 26** of the training, we made progress on the **e-commerce project**. I worked on improving the website's UI and adding essential pages:
+
+1. **Navbar Redesign:**
+   - Redesigned the **navbar** using **Bootstrap** to improve the UI and **responsiveness** across devices.
+
+2. **Products Page:**
+   - Created the **products page** to display the available items for sale.
+   - Integrated dynamic elements to show product details such as name, price, and description.
+
+3. **Contact Us Page:**
+   - Developed a **Contact Us page** with a form for customers to get in touch with inquiries or support.
+
+4. **Login/Signup Page:**
+   - Implemented the **login and signup pages** for user authentication, allowing users to create accounts or log in to their existing accounts.
+
+This session helped enhance the website's structure and functionality, bringing us closer to a fully functional e-commerce site.
