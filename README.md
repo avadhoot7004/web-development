@@ -998,3 +998,70 @@ On **Day 26** of the training, we made progress on the **e-commerce project**. I
    - Implemented the **login and signup pages** for user authentication, allowing users to create accounts or log in to their existing accounts.
 
 This session helped enhance the website's structure and functionality, bringing us closer to a fully functional e-commerce site.
+
+## Day 27  
+**18-02-2025**  
+
+On **Day 27**, we enhanced the **products page** by adding actual product templates and images to improve the shopping experience:  
+
+1. **Product Templates:**  
+   - Designed **structured templates** for product listings with a consistent layout.  
+   - Ensured **proper alignment** and spacing for a professional look.  
+
+2. **Image Integration:**  
+   - Added **high-quality images** for each product to enhance visual appeal.  
+   - Used **lazy loading** to optimize performance and reduce initial load time.  
+
+3. **Responsive Design Tweaks:**  
+   - Ensured product images and details adjusted properly across different screen sizes.  
+
+This update made the **product page more dynamic** and visually engaging.  
+
+## Day 28  
+**19-02-2025**  
+
+On **Day 28**, we implemented an **individual product details page** for a better user experience:  
+
+1. **Product Information Page:**  
+   - Created a **dedicated page** for each product with detailed descriptions, pricing, and availability.  
+   - Added a **carousel/slideshow** to showcase multiple images per product.  
+
+2. **"Add to Cart" Button:**  
+   - Added an **interactive button** for users to easily add products to their shopping cart.  
+
+This step improved the overall **user flow** by allowing customers to explore individual products in depth.  
+
+## Day 29  
+**20-02-2025**  
+
+On **Day 29**, we focused on the **backend database** by setting up an **SQL schema** to manage user data efficiently:  
+
+1. **Database Schema Design:**  
+   - Created tables for **users, products, orders, and cart items**.  
+   - Defined relationships between tables using **foreign keys**.  
+
+2. **Order and Cart Handling:**  
+   - Structured the **cart and orders** tables to track purchases.  
+   - Designed queries to **retrieve and update user data** efficiently.  
+
+This step established a **robust database structure** for handling user interactions and transactions.   
+
+## Day 30  
+**21-02-2025**  
+
+On **Day 30**, we conducted a **project review** to evaluate whether it met the required criteria:  
+
+1. **Functionality Check:**  
+   - Tested **all core features**, including product browsing, user authentication, and cart management.  
+   - Verified **database operations** for storing and retrieving user data.  
+
+2. **Performance Optimization:**  
+   - Ensured the **site loads efficiently** by optimizing images and queries.   
+
+3. **Cross-Device Testing:**  
+   - Checked website **responsiveness** on desktops, tablets, and mobile devices.  
+   - Fixed **minor UI inconsistencies** across different screen sizes.  
+
+4. **Final Adjustments:**  
+   - Addressed **bugs and UI improvements** before deployment.  
+   - Ensured the website **meets project requirements** and functions smoothly.  
