@@ -979,6 +979,8 @@ I created a **restaurant website** with the following features:
 5. **Transaction Completion:**
    - Users can click on **Buy Now** to **complete the transaction** and finalize their order.
 
+- Navigate to source code [here](RestaurentWebsite/).
+
 ## Day 26  
 **17-02-2025**  
 
